@@ -7,6 +7,7 @@ def create_an_array
   until arr.length == 4 do
     arr.push(rand(100))
   end
+  return arr
 end
 
 def add_element_to_end_of_array(array, element)
